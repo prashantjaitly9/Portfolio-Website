@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prashant Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1033db8b18.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Prashant</a></li>
+            <li><a href="#services">Courtsey</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Computer Enthusiast</p>
+          <h1>
+            Hi, I'm <span>Prashant Jaitly</span><br />From NIT Kurukshetra
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--------------about------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="Images/me.jpeg" alt="" /></div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              My name is Prashant Jaitly, and I am currently pursuing a Master
+              of Computer Applications (MCA) at NIT Kurukshetra. Passionate
+              about technology and innovation, I thrive on exploring new
+              concepts in computer science and applying them to real-world
+              challenges. With a strong commitment to continuous learning, I aim
+              to build a career where I can contribute to cutting-edge
+              advancements in technology while growing both personally and
+              professionally.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interface</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/iOS Apps
+                </li>
+                <li>
+                  <span>SEO</span><br />Creating Reseach-Based Contents For
+                  Website
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2020 - 2024</span><br />Freelance Content Writer at
+                  Collegedunia
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024 - 2027</span><br />Pursuing MCA from NIT
+                  Kurukshetra
+                </li>
+                <li>
+                  <span>2020 - 2023</span><br />BSc from Calcutta University
+                  (regular)
+                </li>
+                <li>
+                  <span>2020 - 2023</span><br />BCA from IGNOU (correspondance)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------services ---------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              repellat, odio aliquid fugit perferendis deserunt facere fugiat,
+              ipsum eveniet alias odit voluptatum, dolorum iusto tenetur! Natus
+              facilis omnis dolores quisquam!
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              repellat, odio aliquid fugit perferendis deserunt facere fugiat,
+              ipsum eveniet alias odit voluptatum, dolorum iusto tenetur! Natus
+              facilis omnis dolores quisquam!
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              repellat, odio aliquid fugit perferendis deserunt facere fugiat,
+              ipsum eveniet alias odit voluptatum, dolorum iusto tenetur! Natus
+              facilis omnis dolores quisquam!
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------portfolio---------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/work.jpg" />
+            <div class="layer">
+              <h3>Twitter App Clone</h3>
+              <p>
+                I developed a web application called **Twitter Clone** using the
+                MERN stack (MongoDB, Express.js, React.js, and Node.js). This
+                app replicates the core features of Twitter, such as posting
+                tweets, liking, commenting, and following users. With a
+                responsive design and seamless functionality, it offers a
+                user-friendly interface and a dynamic experience. The project
+                reflects my skills in full-stack development and my ability to
+                create scalable and efficient applications while working on
+                real-world concepts.
+              </p>
+              <a href="https://github.com/prashantjaitly9/Twitter-clone"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="Images/work.jpg" />
+            <div class="layer">
+              <h3>React Chat App (Development-phase)</h3>
+              <p>
+                I am currently developing a chat application using React, HTML,
+                and JSON, focusing on creating a fast, interactive, and
+                user-friendly messaging platform. The app is designed with
+                real-time communication in mind, ensuring seamless message
+                exchanges and a responsive interface. By leveraging the
+                structure of HTML and the flexibility of JSON, I aim to build a
+                robust system that emphasizes both functionality and aesthetics.
+                This project showcases my skills in modern web technologies and
+                my ability to create applications that prioritize user
+                experience and performance.
+              </p>
+              <a href="https://github.com/prashantjaitly9/react-chat"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="Images/work.jpg" />
+            <div class="layer">
+              <h3>Platformer</h3>
+              <p>
+                I developed a 2D platformer game in Python, showcasing my
+                programming and game development skills. The game features an
+                engaging character that can jump, walk, and hide, offering
+                players a dynamic and interactive experience. Designed with
+                visually appealing graphics and smooth controls, the game
+                presents a series of challenges that test players' timing and
+                strategy. This project highlights my ability to work with Python
+                libraries for game development and demonstrates my creativity in
+                designing fun and immersive gameplay.
+              </p>
+              <a href="https://github.com/prashantjaitly9/Platformer"
+                ><i class="fa-solid fa-gamepad"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-------------------contact--------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>pjaitly6@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8826587016</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/prashant.jaitly.9?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/prashant.jaitly.9/?igsh=cG5jNjY0NjAweXYz"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/prashant-jaitly-98b7802a5">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+            <a href="" class="btn btn2">Download CV</a>
+          </div>
+
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright @ Prashant. Made with
+          <i class="fa-solid fa-heart"></i> by Prashant Jaitly
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
